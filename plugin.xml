@@ -14,6 +14,8 @@
       </config-file>
       <config-file parent="/*" target="AndroidManifest.xml" />
       <source-file src="src/android/MathCalculator.java" target-dir="src/cordova/plugin/mathcalculator/MathCalculator" />
+      <source-file src="src/android/libs/android-support-v4.jar" target-dir="libs" framework="true"/>
+      <source-file src="src/android/libs/justtide_v2.1.jar" target-dir="libs" framework="true"/>
    </platform>
 
 </plugin>
